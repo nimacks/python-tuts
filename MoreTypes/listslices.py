@@ -15,7 +15,7 @@ If the first number in a slice is omitted, it is taken to be the start of the li
 If the second number is omitted, it is taken to be the end.
 """
 squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-print(squares[:7])
+print(squares[:9])
 print(squares[7:])
 
 """
@@ -30,3 +30,6 @@ Negative values can be used in list slicing (and normal list indexing). When neg
 """
 squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 print(squares[1:-1])
+
+nums = (55, 44, 33, 22)
+print(max(min(nums[:2]), abs(-42)))
