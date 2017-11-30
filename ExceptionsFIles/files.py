@@ -89,4 +89,4 @@ An alternative way of doing this is using with statements.
 """
 
 with open("filename.txt") as f:
-   print(f.read()
+   print(f.read())
